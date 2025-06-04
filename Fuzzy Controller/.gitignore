@@ -1,0 +1,26 @@
+# MATLAB/Simulink temporary files
+*.slxc
+*.asv
+*.autosave
+slprj/
+*.m~
+
+# System files
+.DS_Store
+Thumbs.db
+*.tmp
+*.temp
+
+# Log files
+*.log
+
+# Backup files
+*~
+*.bak
+
+# IDE files
+.vscode/
+.idea/
+
+# Exclude specific files
+task11.fis 

@@ -1,0 +1,1259 @@
+[System]
+Name='anfis_l_train'
+Type='sugeno'
+Version=2.0
+NumInputs=4
+NumOutputs=1
+NumRules=600
+AndMethod='prod'
+OrMethod='probor'
+ImpMethod='prod'
+AggMethod='sum'
+DefuzzMethod='wtaver'
+
+[Input1]
+Name='input1'
+Range=[0.0352363236087673 20]
+NumMFs=4
+MF1='in1mf1':'gauss2mf',[1.13043393519716 -1.96124004403036 1.13043393519716 2.03171269124789]
+MF2='in1mf2':'gauss2mf',[1.13043393519716 4.69368118143339 1.13043393519716 8.68663391671164]
+MF3='in1mf3':'gauss2mf',[1.13043393519716 11.3486024068971 1.13043393519716 15.3415551421754]
+MF4='in1mf4':'gauss2mf',[1.13043393519716 18.0035236323609 1.13043393519716 21.9964763676391]
+
+[Input2]
+Name='input2'
+Range=[0 23.5082565788174]
+NumMFs=5
+MF1='in2mf1':'gauss2mf',[0.998303739957693 -1.7631192434113 0.998303739957693 1.7631192434113]
+MF2='in2mf2':'gauss2mf',[0.998303739957693 4.11394490129304 0.998303739957693 7.64018338811565]
+MF3='in2mf3':'gauss2mf',[0.998303739957693 9.99100904599739 0.998303739957693 13.51724753282]
+MF4='in2mf4':'gauss2mf',[0.998303739957693 15.8680731907017 0.998303739957693 19.3943116775244]
+MF5='in2mf5':'gauss2mf',[0.998303739957693 21.7451373354061 0.998303739957693 25.2713758222287]
+
+[Input3]
+Name='input3'
+Range=[-179.829785840518 179.996292674371]
+NumMFs=5
+MF1='in3mf1':'gauss2mf',[15.2804066397422 -206.816741729135 15.2804066397422 -152.842829951901]
+MF2='in3mf2':'gauss2mf',[15.2804066397422 -116.860222100412 15.2804066397422 -62.8863103231791]
+MF3='in3mf3':'gauss2mf',[15.2804066397422 -26.9037024716902 15.2804066397422 27.0702093055432]
+MF4='in3mf4':'gauss2mf',[15.2804066397422 63.052817157032 15.2804066397422 117.026728934265]
+MF5='in3mf5':'gauss2mf',[15.2804066397422 153.009336785754 15.2804066397422 206.983248562988]
+
+[Input4]
+Name='input4'
+Range=[-9 5]
+NumMFs=6
+MF1='in4mf1':'gauss2mf',[0.475620208161291 -9.84 0.475620208161291 -8.16]
+MF2='in4mf2':'gauss2mf',[0.475620208161291 -7.04 0.475620208161291 -5.36]
+MF3='in4mf3':'gauss2mf',[0.475620208161291 -4.24 0.475620208161291 -2.56]
+MF4='in4mf4':'gauss2mf',[0.475620208161291 -1.44 0.475620208161291 0.24]
+MF5='in4mf5':'gauss2mf',[0.475620208161291 1.36 0.475620208161291 3.04]
+MF6='in4mf6':'gauss2mf',[0.475620208161291 4.16 0.475620208161291 5.84]
+
+[Output1]
+Name='output'
+Range=[-0.75027027027027 1.62162162162162]
+NumMFs=600
+MF1='out1mf1':'constant',[0]
+MF2='out1mf2':'constant',[0]
+MF3='out1mf3':'constant',[0]
+MF4='out1mf4':'constant',[0]
+MF5='out1mf5':'constant',[0]
+MF6='out1mf6':'constant',[0]
+MF7='out1mf7':'constant',[0]
+MF8='out1mf8':'constant',[0]
+MF9='out1mf9':'constant',[0]
+MF10='out1mf10':'constant',[0]
+MF11='out1mf11':'constant',[0]
+MF12='out1mf12':'constant',[0]
+MF13='out1mf13':'constant',[0]
+MF14='out1mf14':'constant',[0]
+MF15='out1mf15':'constant',[0]
+MF16='out1mf16':'constant',[0]
+MF17='out1mf17':'constant',[0]
+MF18='out1mf18':'constant',[0]
+MF19='out1mf19':'constant',[0]
+MF20='out1mf20':'constant',[0]
+MF21='out1mf21':'constant',[0]
+MF22='out1mf22':'constant',[0]
+MF23='out1mf23':'constant',[0]
+MF24='out1mf24':'constant',[0]
+MF25='out1mf25':'constant',[0]
+MF26='out1mf26':'constant',[0]
+MF27='out1mf27':'constant',[0]
+MF28='out1mf28':'constant',[0]
+MF29='out1mf29':'constant',[0]
+MF30='out1mf30':'constant',[0]
+MF31='out1mf31':'constant',[0]
+MF32='out1mf32':'constant',[0]
+MF33='out1mf33':'constant',[0]
+MF34='out1mf34':'constant',[0]
+MF35='out1mf35':'constant',[0]
+MF36='out1mf36':'constant',[0]
+MF37='out1mf37':'constant',[0]
+MF38='out1mf38':'constant',[0]
+MF39='out1mf39':'constant',[0]
+MF40='out1mf40':'constant',[0]
+MF41='out1mf41':'constant',[0]
+MF42='out1mf42':'constant',[0]
+MF43='out1mf43':'constant',[0]
+MF44='out1mf44':'constant',[0]
+MF45='out1mf45':'constant',[0]
+MF46='out1mf46':'constant',[0]
+MF47='out1mf47':'constant',[0]
+MF48='out1mf48':'constant',[0]
+MF49='out1mf49':'constant',[0]
+MF50='out1mf50':'constant',[0]
+MF51='out1mf51':'constant',[0]
+MF52='out1mf52':'constant',[0]
+MF53='out1mf53':'constant',[0]
+MF54='out1mf54':'constant',[0]
+MF55='out1mf55':'constant',[0]
+MF56='out1mf56':'constant',[0]
+MF57='out1mf57':'constant',[0]
+MF58='out1mf58':'constant',[0]
+MF59='out1mf59':'constant',[0]
+MF60='out1mf60':'constant',[0]
+MF61='out1mf61':'constant',[0]
+MF62='out1mf62':'constant',[0]
+MF63='out1mf63':'constant',[0]
+MF64='out1mf64':'constant',[0]
+MF65='out1mf65':'constant',[0]
+MF66='out1mf66':'constant',[0]
+MF67='out1mf67':'constant',[0]
+MF68='out1mf68':'constant',[0]
+MF69='out1mf69':'constant',[0]
+MF70='out1mf70':'constant',[0]
+MF71='out1mf71':'constant',[0]
+MF72='out1mf72':'constant',[0]
+MF73='out1mf73':'constant',[0]
+MF74='out1mf74':'constant',[0]
+MF75='out1mf75':'constant',[0]
+MF76='out1mf76':'constant',[0]
+MF77='out1mf77':'constant',[0]
+MF78='out1mf78':'constant',[0]
+MF79='out1mf79':'constant',[0]
+MF80='out1mf80':'constant',[0]
+MF81='out1mf81':'constant',[0]
+MF82='out1mf82':'constant',[0]
+MF83='out1mf83':'constant',[0]
+MF84='out1mf84':'constant',[0]
+MF85='out1mf85':'constant',[0]
+MF86='out1mf86':'constant',[0]
+MF87='out1mf87':'constant',[0]
+MF88='out1mf88':'constant',[0]
+MF89='out1mf89':'constant',[0]
+MF90='out1mf90':'constant',[0]
+MF91='out1mf91':'constant',[0]
+MF92='out1mf92':'constant',[0]
+MF93='out1mf93':'constant',[0]
+MF94='out1mf94':'constant',[0]
+MF95='out1mf95':'constant',[0]
+MF96='out1mf96':'constant',[0]
+MF97='out1mf97':'constant',[0]
+MF98='out1mf98':'constant',[0]
+MF99='out1mf99':'constant',[0]
+MF100='out1mf100':'constant',[0]
+MF101='out1mf101':'constant',[0]
+MF102='out1mf102':'constant',[0]
+MF103='out1mf103':'constant',[0]
+MF104='out1mf104':'constant',[0]
+MF105='out1mf105':'constant',[0]
+MF106='out1mf106':'constant',[0]
+MF107='out1mf107':'constant',[0]
+MF108='out1mf108':'constant',[0]
+MF109='out1mf109':'constant',[0]
+MF110='out1mf110':'constant',[0]
+MF111='out1mf111':'constant',[0]
+MF112='out1mf112':'constant',[0]
+MF113='out1mf113':'constant',[0]
+MF114='out1mf114':'constant',[0]
+MF115='out1mf115':'constant',[0]
+MF116='out1mf116':'constant',[0]
+MF117='out1mf117':'constant',[0]
+MF118='out1mf118':'constant',[0]
+MF119='out1mf119':'constant',[0]
+MF120='out1mf120':'constant',[0]
+MF121='out1mf121':'constant',[0]
+MF122='out1mf122':'constant',[0]
+MF123='out1mf123':'constant',[0]
+MF124='out1mf124':'constant',[0]
+MF125='out1mf125':'constant',[0]
+MF126='out1mf126':'constant',[0]
+MF127='out1mf127':'constant',[0]
+MF128='out1mf128':'constant',[0]
+MF129='out1mf129':'constant',[0]
+MF130='out1mf130':'constant',[0]
+MF131='out1mf131':'constant',[0]
+MF132='out1mf132':'constant',[0]
+MF133='out1mf133':'constant',[0]
+MF134='out1mf134':'constant',[0]
+MF135='out1mf135':'constant',[0]
+MF136='out1mf136':'constant',[0]
+MF137='out1mf137':'constant',[0]
+MF138='out1mf138':'constant',[0]
+MF139='out1mf139':'constant',[0]
+MF140='out1mf140':'constant',[0]
+MF141='out1mf141':'constant',[0]
+MF142='out1mf142':'constant',[0]
+MF143='out1mf143':'constant',[0]
+MF144='out1mf144':'constant',[0]
+MF145='out1mf145':'constant',[0]
+MF146='out1mf146':'constant',[0]
+MF147='out1mf147':'constant',[0]
+MF148='out1mf148':'constant',[0]
+MF149='out1mf149':'constant',[0]
+MF150='out1mf150':'constant',[0]
+MF151='out1mf151':'constant',[0]
+MF152='out1mf152':'constant',[0]
+MF153='out1mf153':'constant',[0]
+MF154='out1mf154':'constant',[0]
+MF155='out1mf155':'constant',[0]
+MF156='out1mf156':'constant',[0]
+MF157='out1mf157':'constant',[0]
+MF158='out1mf158':'constant',[0]
+MF159='out1mf159':'constant',[0]
+MF160='out1mf160':'constant',[0]
+MF161='out1mf161':'constant',[0]
+MF162='out1mf162':'constant',[0]
+MF163='out1mf163':'constant',[0]
+MF164='out1mf164':'constant',[0]
+MF165='out1mf165':'constant',[0]
+MF166='out1mf166':'constant',[0]
+MF167='out1mf167':'constant',[0]
+MF168='out1mf168':'constant',[0]
+MF169='out1mf169':'constant',[0]
+MF170='out1mf170':'constant',[0]
+MF171='out1mf171':'constant',[0]
+MF172='out1mf172':'constant',[0]
+MF173='out1mf173':'constant',[0]
+MF174='out1mf174':'constant',[0]
+MF175='out1mf175':'constant',[0]
+MF176='out1mf176':'constant',[0]
+MF177='out1mf177':'constant',[0]
+MF178='out1mf178':'constant',[0]
+MF179='out1mf179':'constant',[0]
+MF180='out1mf180':'constant',[0]
+MF181='out1mf181':'constant',[0]
+MF182='out1mf182':'constant',[0]
+MF183='out1mf183':'constant',[0]
+MF184='out1mf184':'constant',[0]
+MF185='out1mf185':'constant',[0]
+MF186='out1mf186':'constant',[0]
+MF187='out1mf187':'constant',[0]
+MF188='out1mf188':'constant',[0]
+MF189='out1mf189':'constant',[0]
+MF190='out1mf190':'constant',[0]
+MF191='out1mf191':'constant',[0]
+MF192='out1mf192':'constant',[0]
+MF193='out1mf193':'constant',[0]
+MF194='out1mf194':'constant',[0]
+MF195='out1mf195':'constant',[0]
+MF196='out1mf196':'constant',[0]
+MF197='out1mf197':'constant',[0]
+MF198='out1mf198':'constant',[0]
+MF199='out1mf199':'constant',[0]
+MF200='out1mf200':'constant',[0]
+MF201='out1mf201':'constant',[0]
+MF202='out1mf202':'constant',[0]
+MF203='out1mf203':'constant',[0]
+MF204='out1mf204':'constant',[0]
+MF205='out1mf205':'constant',[0]
+MF206='out1mf206':'constant',[0]
+MF207='out1mf207':'constant',[0]
+MF208='out1mf208':'constant',[0]
+MF209='out1mf209':'constant',[0]
+MF210='out1mf210':'constant',[0]
+MF211='out1mf211':'constant',[0]
+MF212='out1mf212':'constant',[0]
+MF213='out1mf213':'constant',[0]
+MF214='out1mf214':'constant',[0]
+MF215='out1mf215':'constant',[0]
+MF216='out1mf216':'constant',[0]
+MF217='out1mf217':'constant',[0]
+MF218='out1mf218':'constant',[0]
+MF219='out1mf219':'constant',[0]
+MF220='out1mf220':'constant',[0]
+MF221='out1mf221':'constant',[0]
+MF222='out1mf222':'constant',[0]
+MF223='out1mf223':'constant',[0]
+MF224='out1mf224':'constant',[0]
+MF225='out1mf225':'constant',[0]
+MF226='out1mf226':'constant',[0]
+MF227='out1mf227':'constant',[0]
+MF228='out1mf228':'constant',[0]
+MF229='out1mf229':'constant',[0]
+MF230='out1mf230':'constant',[0]
+MF231='out1mf231':'constant',[0]
+MF232='out1mf232':'constant',[0]
+MF233='out1mf233':'constant',[0]
+MF234='out1mf234':'constant',[0]
+MF235='out1mf235':'constant',[0]
+MF236='out1mf236':'constant',[0]
+MF237='out1mf237':'constant',[0]
+MF238='out1mf238':'constant',[0]
+MF239='out1mf239':'constant',[0]
+MF240='out1mf240':'constant',[0]
+MF241='out1mf241':'constant',[0]
+MF242='out1mf242':'constant',[0]
+MF243='out1mf243':'constant',[0]
+MF244='out1mf244':'constant',[0]
+MF245='out1mf245':'constant',[0]
+MF246='out1mf246':'constant',[0]
+MF247='out1mf247':'constant',[0]
+MF248='out1mf248':'constant',[0]
+MF249='out1mf249':'constant',[0]
+MF250='out1mf250':'constant',[0]
+MF251='out1mf251':'constant',[0]
+MF252='out1mf252':'constant',[0]
+MF253='out1mf253':'constant',[0]
+MF254='out1mf254':'constant',[0]
+MF255='out1mf255':'constant',[0]
+MF256='out1mf256':'constant',[0]
+MF257='out1mf257':'constant',[0]
+MF258='out1mf258':'constant',[0]
+MF259='out1mf259':'constant',[0]
+MF260='out1mf260':'constant',[0]
+MF261='out1mf261':'constant',[0]
+MF262='out1mf262':'constant',[0]
+MF263='out1mf263':'constant',[0]
+MF264='out1mf264':'constant',[0]
+MF265='out1mf265':'constant',[0]
+MF266='out1mf266':'constant',[0]
+MF267='out1mf267':'constant',[0]
+MF268='out1mf268':'constant',[0]
+MF269='out1mf269':'constant',[0]
+MF270='out1mf270':'constant',[0]
+MF271='out1mf271':'constant',[0]
+MF272='out1mf272':'constant',[0]
+MF273='out1mf273':'constant',[0]
+MF274='out1mf274':'constant',[0]
+MF275='out1mf275':'constant',[0]
+MF276='out1mf276':'constant',[0]
+MF277='out1mf277':'constant',[0]
+MF278='out1mf278':'constant',[0]
+MF279='out1mf279':'constant',[0]
+MF280='out1mf280':'constant',[0]
+MF281='out1mf281':'constant',[0]
+MF282='out1mf282':'constant',[0]
+MF283='out1mf283':'constant',[0]
+MF284='out1mf284':'constant',[0]
+MF285='out1mf285':'constant',[0]
+MF286='out1mf286':'constant',[0]
+MF287='out1mf287':'constant',[0]
+MF288='out1mf288':'constant',[0]
+MF289='out1mf289':'constant',[0]
+MF290='out1mf290':'constant',[0]
+MF291='out1mf291':'constant',[0]
+MF292='out1mf292':'constant',[0]
+MF293='out1mf293':'constant',[0]
+MF294='out1mf294':'constant',[0]
+MF295='out1mf295':'constant',[0]
+MF296='out1mf296':'constant',[0]
+MF297='out1mf297':'constant',[0]
+MF298='out1mf298':'constant',[0]
+MF299='out1mf299':'constant',[0]
+MF300='out1mf300':'constant',[0]
+MF301='out1mf301':'constant',[0]
+MF302='out1mf302':'constant',[0]
+MF303='out1mf303':'constant',[0]
+MF304='out1mf304':'constant',[0]
+MF305='out1mf305':'constant',[0]
+MF306='out1mf306':'constant',[0]
+MF307='out1mf307':'constant',[0]
+MF308='out1mf308':'constant',[0]
+MF309='out1mf309':'constant',[0]
+MF310='out1mf310':'constant',[0]
+MF311='out1mf311':'constant',[0]
+MF312='out1mf312':'constant',[0]
+MF313='out1mf313':'constant',[0]
+MF314='out1mf314':'constant',[0]
+MF315='out1mf315':'constant',[0]
+MF316='out1mf316':'constant',[0]
+MF317='out1mf317':'constant',[0]
+MF318='out1mf318':'constant',[0]
+MF319='out1mf319':'constant',[0]
+MF320='out1mf320':'constant',[0]
+MF321='out1mf321':'constant',[0]
+MF322='out1mf322':'constant',[0]
+MF323='out1mf323':'constant',[0]
+MF324='out1mf324':'constant',[0]
+MF325='out1mf325':'constant',[0]
+MF326='out1mf326':'constant',[0]
+MF327='out1mf327':'constant',[0]
+MF328='out1mf328':'constant',[0]
+MF329='out1mf329':'constant',[0]
+MF330='out1mf330':'constant',[0]
+MF331='out1mf331':'constant',[0]
+MF332='out1mf332':'constant',[0]
+MF333='out1mf333':'constant',[0]
+MF334='out1mf334':'constant',[0]
+MF335='out1mf335':'constant',[0]
+MF336='out1mf336':'constant',[0]
+MF337='out1mf337':'constant',[0]
+MF338='out1mf338':'constant',[0]
+MF339='out1mf339':'constant',[0]
+MF340='out1mf340':'constant',[0]
+MF341='out1mf341':'constant',[0]
+MF342='out1mf342':'constant',[0]
+MF343='out1mf343':'constant',[0]
+MF344='out1mf344':'constant',[0]
+MF345='out1mf345':'constant',[0]
+MF346='out1mf346':'constant',[0]
+MF347='out1mf347':'constant',[0]
+MF348='out1mf348':'constant',[0]
+MF349='out1mf349':'constant',[0]
+MF350='out1mf350':'constant',[0]
+MF351='out1mf351':'constant',[0]
+MF352='out1mf352':'constant',[0]
+MF353='out1mf353':'constant',[0]
+MF354='out1mf354':'constant',[0]
+MF355='out1mf355':'constant',[0]
+MF356='out1mf356':'constant',[0]
+MF357='out1mf357':'constant',[0]
+MF358='out1mf358':'constant',[0]
+MF359='out1mf359':'constant',[0]
+MF360='out1mf360':'constant',[0]
+MF361='out1mf361':'constant',[0]
+MF362='out1mf362':'constant',[0]
+MF363='out1mf363':'constant',[0]
+MF364='out1mf364':'constant',[0]
+MF365='out1mf365':'constant',[0]
+MF366='out1mf366':'constant',[0]
+MF367='out1mf367':'constant',[0]
+MF368='out1mf368':'constant',[0]
+MF369='out1mf369':'constant',[0]
+MF370='out1mf370':'constant',[0]
+MF371='out1mf371':'constant',[0]
+MF372='out1mf372':'constant',[0]
+MF373='out1mf373':'constant',[0]
+MF374='out1mf374':'constant',[0]
+MF375='out1mf375':'constant',[0]
+MF376='out1mf376':'constant',[0]
+MF377='out1mf377':'constant',[0]
+MF378='out1mf378':'constant',[0]
+MF379='out1mf379':'constant',[0]
+MF380='out1mf380':'constant',[0]
+MF381='out1mf381':'constant',[0]
+MF382='out1mf382':'constant',[0]
+MF383='out1mf383':'constant',[0]
+MF384='out1mf384':'constant',[0]
+MF385='out1mf385':'constant',[0]
+MF386='out1mf386':'constant',[0]
+MF387='out1mf387':'constant',[0]
+MF388='out1mf388':'constant',[0]
+MF389='out1mf389':'constant',[0]
+MF390='out1mf390':'constant',[0]
+MF391='out1mf391':'constant',[0]
+MF392='out1mf392':'constant',[0]
+MF393='out1mf393':'constant',[0]
+MF394='out1mf394':'constant',[0]
+MF395='out1mf395':'constant',[0]
+MF396='out1mf396':'constant',[0]
+MF397='out1mf397':'constant',[0]
+MF398='out1mf398':'constant',[0]
+MF399='out1mf399':'constant',[0]
+MF400='out1mf400':'constant',[0]
+MF401='out1mf401':'constant',[0]
+MF402='out1mf402':'constant',[0]
+MF403='out1mf403':'constant',[0]
+MF404='out1mf404':'constant',[0]
+MF405='out1mf405':'constant',[0]
+MF406='out1mf406':'constant',[0]
+MF407='out1mf407':'constant',[0]
+MF408='out1mf408':'constant',[0]
+MF409='out1mf409':'constant',[0]
+MF410='out1mf410':'constant',[0]
+MF411='out1mf411':'constant',[0]
+MF412='out1mf412':'constant',[0]
+MF413='out1mf413':'constant',[0]
+MF414='out1mf414':'constant',[0]
+MF415='out1mf415':'constant',[0]
+MF416='out1mf416':'constant',[0]
+MF417='out1mf417':'constant',[0]
+MF418='out1mf418':'constant',[0]
+MF419='out1mf419':'constant',[0]
+MF420='out1mf420':'constant',[0]
+MF421='out1mf421':'constant',[0]
+MF422='out1mf422':'constant',[0]
+MF423='out1mf423':'constant',[0]
+MF424='out1mf424':'constant',[0]
+MF425='out1mf425':'constant',[0]
+MF426='out1mf426':'constant',[0]
+MF427='out1mf427':'constant',[0]
+MF428='out1mf428':'constant',[0]
+MF429='out1mf429':'constant',[0]
+MF430='out1mf430':'constant',[0]
+MF431='out1mf431':'constant',[0]
+MF432='out1mf432':'constant',[0]
+MF433='out1mf433':'constant',[0]
+MF434='out1mf434':'constant',[0]
+MF435='out1mf435':'constant',[0]
+MF436='out1mf436':'constant',[0]
+MF437='out1mf437':'constant',[0]
+MF438='out1mf438':'constant',[0]
+MF439='out1mf439':'constant',[0]
+MF440='out1mf440':'constant',[0]
+MF441='out1mf441':'constant',[0]
+MF442='out1mf442':'constant',[0]
+MF443='out1mf443':'constant',[0]
+MF444='out1mf444':'constant',[0]
+MF445='out1mf445':'constant',[0]
+MF446='out1mf446':'constant',[0]
+MF447='out1mf447':'constant',[0]
+MF448='out1mf448':'constant',[0]
+MF449='out1mf449':'constant',[0]
+MF450='out1mf450':'constant',[0]
+MF451='out1mf451':'constant',[0]
+MF452='out1mf452':'constant',[0]
+MF453='out1mf453':'constant',[0]
+MF454='out1mf454':'constant',[0]
+MF455='out1mf455':'constant',[0]
+MF456='out1mf456':'constant',[0]
+MF457='out1mf457':'constant',[0]
+MF458='out1mf458':'constant',[0]
+MF459='out1mf459':'constant',[0]
+MF460='out1mf460':'constant',[0]
+MF461='out1mf461':'constant',[0]
+MF462='out1mf462':'constant',[0]
+MF463='out1mf463':'constant',[0]
+MF464='out1mf464':'constant',[0]
+MF465='out1mf465':'constant',[0]
+MF466='out1mf466':'constant',[0]
+MF467='out1mf467':'constant',[0]
+MF468='out1mf468':'constant',[0]
+MF469='out1mf469':'constant',[0]
+MF470='out1mf470':'constant',[0]
+MF471='out1mf471':'constant',[0]
+MF472='out1mf472':'constant',[0]
+MF473='out1mf473':'constant',[0]
+MF474='out1mf474':'constant',[0]
+MF475='out1mf475':'constant',[0]
+MF476='out1mf476':'constant',[0]
+MF477='out1mf477':'constant',[0]
+MF478='out1mf478':'constant',[0]
+MF479='out1mf479':'constant',[0]
+MF480='out1mf480':'constant',[0]
+MF481='out1mf481':'constant',[0]
+MF482='out1mf482':'constant',[0]
+MF483='out1mf483':'constant',[0]
+MF484='out1mf484':'constant',[0]
+MF485='out1mf485':'constant',[0]
+MF486='out1mf486':'constant',[0]
+MF487='out1mf487':'constant',[0]
+MF488='out1mf488':'constant',[0]
+MF489='out1mf489':'constant',[0]
+MF490='out1mf490':'constant',[0]
+MF491='out1mf491':'constant',[0]
+MF492='out1mf492':'constant',[0]
+MF493='out1mf493':'constant',[0]
+MF494='out1mf494':'constant',[0]
+MF495='out1mf495':'constant',[0]
+MF496='out1mf496':'constant',[0]
+MF497='out1mf497':'constant',[0]
+MF498='out1mf498':'constant',[0]
+MF499='out1mf499':'constant',[0]
+MF500='out1mf500':'constant',[0]
+MF501='out1mf501':'constant',[0]
+MF502='out1mf502':'constant',[0]
+MF503='out1mf503':'constant',[0]
+MF504='out1mf504':'constant',[0]
+MF505='out1mf505':'constant',[0]
+MF506='out1mf506':'constant',[0]
+MF507='out1mf507':'constant',[0]
+MF508='out1mf508':'constant',[0]
+MF509='out1mf509':'constant',[0]
+MF510='out1mf510':'constant',[0]
+MF511='out1mf511':'constant',[0]
+MF512='out1mf512':'constant',[0]
+MF513='out1mf513':'constant',[0]
+MF514='out1mf514':'constant',[0]
+MF515='out1mf515':'constant',[0]
+MF516='out1mf516':'constant',[0]
+MF517='out1mf517':'constant',[0]
+MF518='out1mf518':'constant',[0]
+MF519='out1mf519':'constant',[0]
+MF520='out1mf520':'constant',[0]
+MF521='out1mf521':'constant',[0]
+MF522='out1mf522':'constant',[0]
+MF523='out1mf523':'constant',[0]
+MF524='out1mf524':'constant',[0]
+MF525='out1mf525':'constant',[0]
+MF526='out1mf526':'constant',[0]
+MF527='out1mf527':'constant',[0]
+MF528='out1mf528':'constant',[0]
+MF529='out1mf529':'constant',[0]
+MF530='out1mf530':'constant',[0]
+MF531='out1mf531':'constant',[0]
+MF532='out1mf532':'constant',[0]
+MF533='out1mf533':'constant',[0]
+MF534='out1mf534':'constant',[0]
+MF535='out1mf535':'constant',[0]
+MF536='out1mf536':'constant',[0]
+MF537='out1mf537':'constant',[0]
+MF538='out1mf538':'constant',[0]
+MF539='out1mf539':'constant',[0]
+MF540='out1mf540':'constant',[0]
+MF541='out1mf541':'constant',[0]
+MF542='out1mf542':'constant',[0]
+MF543='out1mf543':'constant',[0]
+MF544='out1mf544':'constant',[0]
+MF545='out1mf545':'constant',[0]
+MF546='out1mf546':'constant',[0]
+MF547='out1mf547':'constant',[0]
+MF548='out1mf548':'constant',[0]
+MF549='out1mf549':'constant',[0]
+MF550='out1mf550':'constant',[0]
+MF551='out1mf551':'constant',[0]
+MF552='out1mf552':'constant',[0]
+MF553='out1mf553':'constant',[0]
+MF554='out1mf554':'constant',[0]
+MF555='out1mf555':'constant',[0]
+MF556='out1mf556':'constant',[0]
+MF557='out1mf557':'constant',[0]
+MF558='out1mf558':'constant',[0]
+MF559='out1mf559':'constant',[0]
+MF560='out1mf560':'constant',[0]
+MF561='out1mf561':'constant',[0]
+MF562='out1mf562':'constant',[0]
+MF563='out1mf563':'constant',[0]
+MF564='out1mf564':'constant',[0]
+MF565='out1mf565':'constant',[0]
+MF566='out1mf566':'constant',[0]
+MF567='out1mf567':'constant',[0]
+MF568='out1mf568':'constant',[0]
+MF569='out1mf569':'constant',[0]
+MF570='out1mf570':'constant',[0]
+MF571='out1mf571':'constant',[0]
+MF572='out1mf572':'constant',[0]
+MF573='out1mf573':'constant',[0]
+MF574='out1mf574':'constant',[0]
+MF575='out1mf575':'constant',[0]
+MF576='out1mf576':'constant',[0]
+MF577='out1mf577':'constant',[0]
+MF578='out1mf578':'constant',[0]
+MF579='out1mf579':'constant',[0]
+MF580='out1mf580':'constant',[0]
+MF581='out1mf581':'constant',[0]
+MF582='out1mf582':'constant',[0]
+MF583='out1mf583':'constant',[0]
+MF584='out1mf584':'constant',[0]
+MF585='out1mf585':'constant',[0]
+MF586='out1mf586':'constant',[0]
+MF587='out1mf587':'constant',[0]
+MF588='out1mf588':'constant',[0]
+MF589='out1mf589':'constant',[0]
+MF590='out1mf590':'constant',[0]
+MF591='out1mf591':'constant',[0]
+MF592='out1mf592':'constant',[0]
+MF593='out1mf593':'constant',[0]
+MF594='out1mf594':'constant',[0]
+MF595='out1mf595':'constant',[0]
+MF596='out1mf596':'constant',[0]
+MF597='out1mf597':'constant',[0]
+MF598='out1mf598':'constant',[0]
+MF599='out1mf599':'constant',[0]
+MF600='out1mf600':'constant',[0]
+
+[Rules]
+1 1 1 1, 1 (1) : 1
+1 1 1 2, 2 (1) : 1
+1 1 1 3, 3 (1) : 1
+1 1 1 4, 4 (1) : 1
+1 1 1 5, 5 (1) : 1
+1 1 1 6, 6 (1) : 1
+1 1 2 1, 7 (1) : 1
+1 1 2 2, 8 (1) : 1
+1 1 2 3, 9 (1) : 1
+1 1 2 4, 10 (1) : 1
+1 1 2 5, 11 (1) : 1
+1 1 2 6, 12 (1) : 1
+1 1 3 1, 13 (1) : 1
+1 1 3 2, 14 (1) : 1
+1 1 3 3, 15 (1) : 1
+1 1 3 4, 16 (1) : 1
+1 1 3 5, 17 (1) : 1
+1 1 3 6, 18 (1) : 1
+1 1 4 1, 19 (1) : 1
+1 1 4 2, 20 (1) : 1
+1 1 4 3, 21 (1) : 1
+1 1 4 4, 22 (1) : 1
+1 1 4 5, 23 (1) : 1
+1 1 4 6, 24 (1) : 1
+1 1 5 1, 25 (1) : 1
+1 1 5 2, 26 (1) : 1
+1 1 5 3, 27 (1) : 1
+1 1 5 4, 28 (1) : 1
+1 1 5 5, 29 (1) : 1
+1 1 5 6, 30 (1) : 1
+1 2 1 1, 31 (1) : 1
+1 2 1 2, 32 (1) : 1
+1 2 1 3, 33 (1) : 1
+1 2 1 4, 34 (1) : 1
+1 2 1 5, 35 (1) : 1
+1 2 1 6, 36 (1) : 1
+1 2 2 1, 37 (1) : 1
+1 2 2 2, 38 (1) : 1
+1 2 2 3, 39 (1) : 1
+1 2 2 4, 40 (1) : 1
+1 2 2 5, 41 (1) : 1
+1 2 2 6, 42 (1) : 1
+1 2 3 1, 43 (1) : 1
+1 2 3 2, 44 (1) : 1
+1 2 3 3, 45 (1) : 1
+1 2 3 4, 46 (1) : 1
+1 2 3 5, 47 (1) : 1
+1 2 3 6, 48 (1) : 1
+1 2 4 1, 49 (1) : 1
+1 2 4 2, 50 (1) : 1
+1 2 4 3, 51 (1) : 1
+1 2 4 4, 52 (1) : 1
+1 2 4 5, 53 (1) : 1
+1 2 4 6, 54 (1) : 1
+1 2 5 1, 55 (1) : 1
+1 2 5 2, 56 (1) : 1
+1 2 5 3, 57 (1) : 1
+1 2 5 4, 58 (1) : 1
+1 2 5 5, 59 (1) : 1
+1 2 5 6, 60 (1) : 1
+1 3 1 1, 61 (1) : 1
+1 3 1 2, 62 (1) : 1
+1 3 1 3, 63 (1) : 1
+1 3 1 4, 64 (1) : 1
+1 3 1 5, 65 (1) : 1
+1 3 1 6, 66 (1) : 1
+1 3 2 1, 67 (1) : 1
+1 3 2 2, 68 (1) : 1
+1 3 2 3, 69 (1) : 1
+1 3 2 4, 70 (1) : 1
+1 3 2 5, 71 (1) : 1
+1 3 2 6, 72 (1) : 1
+1 3 3 1, 73 (1) : 1
+1 3 3 2, 74 (1) : 1
+1 3 3 3, 75 (1) : 1
+1 3 3 4, 76 (1) : 1
+1 3 3 5, 77 (1) : 1
+1 3 3 6, 78 (1) : 1
+1 3 4 1, 79 (1) : 1
+1 3 4 2, 80 (1) : 1
+1 3 4 3, 81 (1) : 1
+1 3 4 4, 82 (1) : 1
+1 3 4 5, 83 (1) : 1
+1 3 4 6, 84 (1) : 1
+1 3 5 1, 85 (1) : 1
+1 3 5 2, 86 (1) : 1
+1 3 5 3, 87 (1) : 1
+1 3 5 4, 88 (1) : 1
+1 3 5 5, 89 (1) : 1
+1 3 5 6, 90 (1) : 1
+1 4 1 1, 91 (1) : 1
+1 4 1 2, 92 (1) : 1
+1 4 1 3, 93 (1) : 1
+1 4 1 4, 94 (1) : 1
+1 4 1 5, 95 (1) : 1
+1 4 1 6, 96 (1) : 1
+1 4 2 1, 97 (1) : 1
+1 4 2 2, 98 (1) : 1
+1 4 2 3, 99 (1) : 1
+1 4 2 4, 100 (1) : 1
+1 4 2 5, 101 (1) : 1
+1 4 2 6, 102 (1) : 1
+1 4 3 1, 103 (1) : 1
+1 4 3 2, 104 (1) : 1
+1 4 3 3, 105 (1) : 1
+1 4 3 4, 106 (1) : 1
+1 4 3 5, 107 (1) : 1
+1 4 3 6, 108 (1) : 1
+1 4 4 1, 109 (1) : 1
+1 4 4 2, 110 (1) : 1
+1 4 4 3, 111 (1) : 1
+1 4 4 4, 112 (1) : 1
+1 4 4 5, 113 (1) : 1
+1 4 4 6, 114 (1) : 1
+1 4 5 1, 115 (1) : 1
+1 4 5 2, 116 (1) : 1
+1 4 5 3, 117 (1) : 1
+1 4 5 4, 118 (1) : 1
+1 4 5 5, 119 (1) : 1
+1 4 5 6, 120 (1) : 1
+1 5 1 1, 121 (1) : 1
+1 5 1 2, 122 (1) : 1
+1 5 1 3, 123 (1) : 1
+1 5 1 4, 124 (1) : 1
+1 5 1 5, 125 (1) : 1
+1 5 1 6, 126 (1) : 1
+1 5 2 1, 127 (1) : 1
+1 5 2 2, 128 (1) : 1
+1 5 2 3, 129 (1) : 1
+1 5 2 4, 130 (1) : 1
+1 5 2 5, 131 (1) : 1
+1 5 2 6, 132 (1) : 1
+1 5 3 1, 133 (1) : 1
+1 5 3 2, 134 (1) : 1
+1 5 3 3, 135 (1) : 1
+1 5 3 4, 136 (1) : 1
+1 5 3 5, 137 (1) : 1
+1 5 3 6, 138 (1) : 1
+1 5 4 1, 139 (1) : 1
+1 5 4 2, 140 (1) : 1
+1 5 4 3, 141 (1) : 1
+1 5 4 4, 142 (1) : 1
+1 5 4 5, 143 (1) : 1
+1 5 4 6, 144 (1) : 1
+1 5 5 1, 145 (1) : 1
+1 5 5 2, 146 (1) : 1
+1 5 5 3, 147 (1) : 1
+1 5 5 4, 148 (1) : 1
+1 5 5 5, 149 (1) : 1
+1 5 5 6, 150 (1) : 1
+2 1 1 1, 151 (1) : 1
+2 1 1 2, 152 (1) : 1
+2 1 1 3, 153 (1) : 1
+2 1 1 4, 154 (1) : 1
+2 1 1 5, 155 (1) : 1
+2 1 1 6, 156 (1) : 1
+2 1 2 1, 157 (1) : 1
+2 1 2 2, 158 (1) : 1
+2 1 2 3, 159 (1) : 1
+2 1 2 4, 160 (1) : 1
+2 1 2 5, 161 (1) : 1
+2 1 2 6, 162 (1) : 1
+2 1 3 1, 163 (1) : 1
+2 1 3 2, 164 (1) : 1
+2 1 3 3, 165 (1) : 1
+2 1 3 4, 166 (1) : 1
+2 1 3 5, 167 (1) : 1
+2 1 3 6, 168 (1) : 1
+2 1 4 1, 169 (1) : 1
+2 1 4 2, 170 (1) : 1
+2 1 4 3, 171 (1) : 1
+2 1 4 4, 172 (1) : 1
+2 1 4 5, 173 (1) : 1
+2 1 4 6, 174 (1) : 1
+2 1 5 1, 175 (1) : 1
+2 1 5 2, 176 (1) : 1
+2 1 5 3, 177 (1) : 1
+2 1 5 4, 178 (1) : 1
+2 1 5 5, 179 (1) : 1
+2 1 5 6, 180 (1) : 1
+2 2 1 1, 181 (1) : 1
+2 2 1 2, 182 (1) : 1
+2 2 1 3, 183 (1) : 1
+2 2 1 4, 184 (1) : 1
+2 2 1 5, 185 (1) : 1
+2 2 1 6, 186 (1) : 1
+2 2 2 1, 187 (1) : 1
+2 2 2 2, 188 (1) : 1
+2 2 2 3, 189 (1) : 1
+2 2 2 4, 190 (1) : 1
+2 2 2 5, 191 (1) : 1
+2 2 2 6, 192 (1) : 1
+2 2 3 1, 193 (1) : 1
+2 2 3 2, 194 (1) : 1
+2 2 3 3, 195 (1) : 1
+2 2 3 4, 196 (1) : 1
+2 2 3 5, 197 (1) : 1
+2 2 3 6, 198 (1) : 1
+2 2 4 1, 199 (1) : 1
+2 2 4 2, 200 (1) : 1
+2 2 4 3, 201 (1) : 1
+2 2 4 4, 202 (1) : 1
+2 2 4 5, 203 (1) : 1
+2 2 4 6, 204 (1) : 1
+2 2 5 1, 205 (1) : 1
+2 2 5 2, 206 (1) : 1
+2 2 5 3, 207 (1) : 1
+2 2 5 4, 208 (1) : 1
+2 2 5 5, 209 (1) : 1
+2 2 5 6, 210 (1) : 1
+2 3 1 1, 211 (1) : 1
+2 3 1 2, 212 (1) : 1
+2 3 1 3, 213 (1) : 1
+2 3 1 4, 214 (1) : 1
+2 3 1 5, 215 (1) : 1
+2 3 1 6, 216 (1) : 1
+2 3 2 1, 217 (1) : 1
+2 3 2 2, 218 (1) : 1
+2 3 2 3, 219 (1) : 1
+2 3 2 4, 220 (1) : 1
+2 3 2 5, 221 (1) : 1
+2 3 2 6, 222 (1) : 1
+2 3 3 1, 223 (1) : 1
+2 3 3 2, 224 (1) : 1
+2 3 3 3, 225 (1) : 1
+2 3 3 4, 226 (1) : 1
+2 3 3 5, 227 (1) : 1
+2 3 3 6, 228 (1) : 1
+2 3 4 1, 229 (1) : 1
+2 3 4 2, 230 (1) : 1
+2 3 4 3, 231 (1) : 1
+2 3 4 4, 232 (1) : 1
+2 3 4 5, 233 (1) : 1
+2 3 4 6, 234 (1) : 1
+2 3 5 1, 235 (1) : 1
+2 3 5 2, 236 (1) : 1
+2 3 5 3, 237 (1) : 1
+2 3 5 4, 238 (1) : 1
+2 3 5 5, 239 (1) : 1
+2 3 5 6, 240 (1) : 1
+2 4 1 1, 241 (1) : 1
+2 4 1 2, 242 (1) : 1
+2 4 1 3, 243 (1) : 1
+2 4 1 4, 244 (1) : 1
+2 4 1 5, 245 (1) : 1
+2 4 1 6, 246 (1) : 1
+2 4 2 1, 247 (1) : 1
+2 4 2 2, 248 (1) : 1
+2 4 2 3, 249 (1) : 1
+2 4 2 4, 250 (1) : 1
+2 4 2 5, 251 (1) : 1
+2 4 2 6, 252 (1) : 1
+2 4 3 1, 253 (1) : 1
+2 4 3 2, 254 (1) : 1
+2 4 3 3, 255 (1) : 1
+2 4 3 4, 256 (1) : 1
+2 4 3 5, 257 (1) : 1
+2 4 3 6, 258 (1) : 1
+2 4 4 1, 259 (1) : 1
+2 4 4 2, 260 (1) : 1
+2 4 4 3, 261 (1) : 1
+2 4 4 4, 262 (1) : 1
+2 4 4 5, 263 (1) : 1
+2 4 4 6, 264 (1) : 1
+2 4 5 1, 265 (1) : 1
+2 4 5 2, 266 (1) : 1
+2 4 5 3, 267 (1) : 1
+2 4 5 4, 268 (1) : 1
+2 4 5 5, 269 (1) : 1
+2 4 5 6, 270 (1) : 1
+2 5 1 1, 271 (1) : 1
+2 5 1 2, 272 (1) : 1
+2 5 1 3, 273 (1) : 1
+2 5 1 4, 274 (1) : 1
+2 5 1 5, 275 (1) : 1
+2 5 1 6, 276 (1) : 1
+2 5 2 1, 277 (1) : 1
+2 5 2 2, 278 (1) : 1
+2 5 2 3, 279 (1) : 1
+2 5 2 4, 280 (1) : 1
+2 5 2 5, 281 (1) : 1
+2 5 2 6, 282 (1) : 1
+2 5 3 1, 283 (1) : 1
+2 5 3 2, 284 (1) : 1
+2 5 3 3, 285 (1) : 1
+2 5 3 4, 286 (1) : 1
+2 5 3 5, 287 (1) : 1
+2 5 3 6, 288 (1) : 1
+2 5 4 1, 289 (1) : 1
+2 5 4 2, 290 (1) : 1
+2 5 4 3, 291 (1) : 1
+2 5 4 4, 292 (1) : 1
+2 5 4 5, 293 (1) : 1
+2 5 4 6, 294 (1) : 1
+2 5 5 1, 295 (1) : 1
+2 5 5 2, 296 (1) : 1
+2 5 5 3, 297 (1) : 1
+2 5 5 4, 298 (1) : 1
+2 5 5 5, 299 (1) : 1
+2 5 5 6, 300 (1) : 1
+3 1 1 1, 301 (1) : 1
+3 1 1 2, 302 (1) : 1
+3 1 1 3, 303 (1) : 1
+3 1 1 4, 304 (1) : 1
+3 1 1 5, 305 (1) : 1
+3 1 1 6, 306 (1) : 1
+3 1 2 1, 307 (1) : 1
+3 1 2 2, 308 (1) : 1
+3 1 2 3, 309 (1) : 1
+3 1 2 4, 310 (1) : 1
+3 1 2 5, 311 (1) : 1
+3 1 2 6, 312 (1) : 1
+3 1 3 1, 313 (1) : 1
+3 1 3 2, 314 (1) : 1
+3 1 3 3, 315 (1) : 1
+3 1 3 4, 316 (1) : 1
+3 1 3 5, 317 (1) : 1
+3 1 3 6, 318 (1) : 1
+3 1 4 1, 319 (1) : 1
+3 1 4 2, 320 (1) : 1
+3 1 4 3, 321 (1) : 1
+3 1 4 4, 322 (1) : 1
+3 1 4 5, 323 (1) : 1
+3 1 4 6, 324 (1) : 1
+3 1 5 1, 325 (1) : 1
+3 1 5 2, 326 (1) : 1
+3 1 5 3, 327 (1) : 1
+3 1 5 4, 328 (1) : 1
+3 1 5 5, 329 (1) : 1
+3 1 5 6, 330 (1) : 1
+3 2 1 1, 331 (1) : 1
+3 2 1 2, 332 (1) : 1
+3 2 1 3, 333 (1) : 1
+3 2 1 4, 334 (1) : 1
+3 2 1 5, 335 (1) : 1
+3 2 1 6, 336 (1) : 1
+3 2 2 1, 337 (1) : 1
+3 2 2 2, 338 (1) : 1
+3 2 2 3, 339 (1) : 1
+3 2 2 4, 340 (1) : 1
+3 2 2 5, 341 (1) : 1
+3 2 2 6, 342 (1) : 1
+3 2 3 1, 343 (1) : 1
+3 2 3 2, 344 (1) : 1
+3 2 3 3, 345 (1) : 1
+3 2 3 4, 346 (1) : 1
+3 2 3 5, 347 (1) : 1
+3 2 3 6, 348 (1) : 1
+3 2 4 1, 349 (1) : 1
+3 2 4 2, 350 (1) : 1
+3 2 4 3, 351 (1) : 1
+3 2 4 4, 352 (1) : 1
+3 2 4 5, 353 (1) : 1
+3 2 4 6, 354 (1) : 1
+3 2 5 1, 355 (1) : 1
+3 2 5 2, 356 (1) : 1
+3 2 5 3, 357 (1) : 1
+3 2 5 4, 358 (1) : 1
+3 2 5 5, 359 (1) : 1
+3 2 5 6, 360 (1) : 1
+3 3 1 1, 361 (1) : 1
+3 3 1 2, 362 (1) : 1
+3 3 1 3, 363 (1) : 1
+3 3 1 4, 364 (1) : 1
+3 3 1 5, 365 (1) : 1
+3 3 1 6, 366 (1) : 1
+3 3 2 1, 367 (1) : 1
+3 3 2 2, 368 (1) : 1
+3 3 2 3, 369 (1) : 1
+3 3 2 4, 370 (1) : 1
+3 3 2 5, 371 (1) : 1
+3 3 2 6, 372 (1) : 1
+3 3 3 1, 373 (1) : 1
+3 3 3 2, 374 (1) : 1
+3 3 3 3, 375 (1) : 1
+3 3 3 4, 376 (1) : 1
+3 3 3 5, 377 (1) : 1
+3 3 3 6, 378 (1) : 1
+3 3 4 1, 379 (1) : 1
+3 3 4 2, 380 (1) : 1
+3 3 4 3, 381 (1) : 1
+3 3 4 4, 382 (1) : 1
+3 3 4 5, 383 (1) : 1
+3 3 4 6, 384 (1) : 1
+3 3 5 1, 385 (1) : 1
+3 3 5 2, 386 (1) : 1
+3 3 5 3, 387 (1) : 1
+3 3 5 4, 388 (1) : 1
+3 3 5 5, 389 (1) : 1
+3 3 5 6, 390 (1) : 1
+3 4 1 1, 391 (1) : 1
+3 4 1 2, 392 (1) : 1
+3 4 1 3, 393 (1) : 1
+3 4 1 4, 394 (1) : 1
+3 4 1 5, 395 (1) : 1
+3 4 1 6, 396 (1) : 1
+3 4 2 1, 397 (1) : 1
+3 4 2 2, 398 (1) : 1
+3 4 2 3, 399 (1) : 1
+3 4 2 4, 400 (1) : 1
+3 4 2 5, 401 (1) : 1
+3 4 2 6, 402 (1) : 1
+3 4 3 1, 403 (1) : 1
+3 4 3 2, 404 (1) : 1
+3 4 3 3, 405 (1) : 1
+3 4 3 4, 406 (1) : 1
+3 4 3 5, 407 (1) : 1
+3 4 3 6, 408 (1) : 1
+3 4 4 1, 409 (1) : 1
+3 4 4 2, 410 (1) : 1
+3 4 4 3, 411 (1) : 1
+3 4 4 4, 412 (1) : 1
+3 4 4 5, 413 (1) : 1
+3 4 4 6, 414 (1) : 1
+3 4 5 1, 415 (1) : 1
+3 4 5 2, 416 (1) : 1
+3 4 5 3, 417 (1) : 1
+3 4 5 4, 418 (1) : 1
+3 4 5 5, 419 (1) : 1
+3 4 5 6, 420 (1) : 1
+3 5 1 1, 421 (1) : 1
+3 5 1 2, 422 (1) : 1
+3 5 1 3, 423 (1) : 1
+3 5 1 4, 424 (1) : 1
+3 5 1 5, 425 (1) : 1
+3 5 1 6, 426 (1) : 1
+3 5 2 1, 427 (1) : 1
+3 5 2 2, 428 (1) : 1
+3 5 2 3, 429 (1) : 1
+3 5 2 4, 430 (1) : 1
+3 5 2 5, 431 (1) : 1
+3 5 2 6, 432 (1) : 1
+3 5 3 1, 433 (1) : 1
+3 5 3 2, 434 (1) : 1
+3 5 3 3, 435 (1) : 1
+3 5 3 4, 436 (1) : 1
+3 5 3 5, 437 (1) : 1
+3 5 3 6, 438 (1) : 1
+3 5 4 1, 439 (1) : 1
+3 5 4 2, 440 (1) : 1
+3 5 4 3, 441 (1) : 1
+3 5 4 4, 442 (1) : 1
+3 5 4 5, 443 (1) : 1
+3 5 4 6, 444 (1) : 1
+3 5 5 1, 445 (1) : 1
+3 5 5 2, 446 (1) : 1
+3 5 5 3, 447 (1) : 1
+3 5 5 4, 448 (1) : 1
+3 5 5 5, 449 (1) : 1
+3 5 5 6, 450 (1) : 1
+4 1 1 1, 451 (1) : 1
+4 1 1 2, 452 (1) : 1
+4 1 1 3, 453 (1) : 1
+4 1 1 4, 454 (1) : 1
+4 1 1 5, 455 (1) : 1
+4 1 1 6, 456 (1) : 1
+4 1 2 1, 457 (1) : 1
+4 1 2 2, 458 (1) : 1
+4 1 2 3, 459 (1) : 1
+4 1 2 4, 460 (1) : 1
+4 1 2 5, 461 (1) : 1
+4 1 2 6, 462 (1) : 1
+4 1 3 1, 463 (1) : 1
+4 1 3 2, 464 (1) : 1
+4 1 3 3, 465 (1) : 1
+4 1 3 4, 466 (1) : 1
+4 1 3 5, 467 (1) : 1
+4 1 3 6, 468 (1) : 1
+4 1 4 1, 469 (1) : 1
+4 1 4 2, 470 (1) : 1
+4 1 4 3, 471 (1) : 1
+4 1 4 4, 472 (1) : 1
+4 1 4 5, 473 (1) : 1
+4 1 4 6, 474 (1) : 1
+4 1 5 1, 475 (1) : 1
+4 1 5 2, 476 (1) : 1
+4 1 5 3, 477 (1) : 1
+4 1 5 4, 478 (1) : 1
+4 1 5 5, 479 (1) : 1
+4 1 5 6, 480 (1) : 1
+4 2 1 1, 481 (1) : 1
+4 2 1 2, 482 (1) : 1
+4 2 1 3, 483 (1) : 1
+4 2 1 4, 484 (1) : 1
+4 2 1 5, 485 (1) : 1
+4 2 1 6, 486 (1) : 1
+4 2 2 1, 487 (1) : 1
+4 2 2 2, 488 (1) : 1
+4 2 2 3, 489 (1) : 1
+4 2 2 4, 490 (1) : 1
+4 2 2 5, 491 (1) : 1
+4 2 2 6, 492 (1) : 1
+4 2 3 1, 493 (1) : 1
+4 2 3 2, 494 (1) : 1
+4 2 3 3, 495 (1) : 1
+4 2 3 4, 496 (1) : 1
+4 2 3 5, 497 (1) : 1
+4 2 3 6, 498 (1) : 1
+4 2 4 1, 499 (1) : 1
+4 2 4 2, 500 (1) : 1
+4 2 4 3, 501 (1) : 1
+4 2 4 4, 502 (1) : 1
+4 2 4 5, 503 (1) : 1
+4 2 4 6, 504 (1) : 1
+4 2 5 1, 505 (1) : 1
+4 2 5 2, 506 (1) : 1
+4 2 5 3, 507 (1) : 1
+4 2 5 4, 508 (1) : 1
+4 2 5 5, 509 (1) : 1
+4 2 5 6, 510 (1) : 1
+4 3 1 1, 511 (1) : 1
+4 3 1 2, 512 (1) : 1
+4 3 1 3, 513 (1) : 1
+4 3 1 4, 514 (1) : 1
+4 3 1 5, 515 (1) : 1
+4 3 1 6, 516 (1) : 1
+4 3 2 1, 517 (1) : 1
+4 3 2 2, 518 (1) : 1
+4 3 2 3, 519 (1) : 1
+4 3 2 4, 520 (1) : 1
+4 3 2 5, 521 (1) : 1
+4 3 2 6, 522 (1) : 1
+4 3 3 1, 523 (1) : 1
+4 3 3 2, 524 (1) : 1
+4 3 3 3, 525 (1) : 1
+4 3 3 4, 526 (1) : 1
+4 3 3 5, 527 (1) : 1
+4 3 3 6, 528 (1) : 1
+4 3 4 1, 529 (1) : 1
+4 3 4 2, 530 (1) : 1
+4 3 4 3, 531 (1) : 1
+4 3 4 4, 532 (1) : 1
+4 3 4 5, 533 (1) : 1
+4 3 4 6, 534 (1) : 1
+4 3 5 1, 535 (1) : 1
+4 3 5 2, 536 (1) : 1
+4 3 5 3, 537 (1) : 1
+4 3 5 4, 538 (1) : 1
+4 3 5 5, 539 (1) : 1
+4 3 5 6, 540 (1) : 1
+4 4 1 1, 541 (1) : 1
+4 4 1 2, 542 (1) : 1
+4 4 1 3, 543 (1) : 1
+4 4 1 4, 544 (1) : 1
+4 4 1 5, 545 (1) : 1
+4 4 1 6, 546 (1) : 1
+4 4 2 1, 547 (1) : 1
+4 4 2 2, 548 (1) : 1
+4 4 2 3, 549 (1) : 1
+4 4 2 4, 550 (1) : 1
+4 4 2 5, 551 (1) : 1
+4 4 2 6, 552 (1) : 1
+4 4 3 1, 553 (1) : 1
+4 4 3 2, 554 (1) : 1
+4 4 3 3, 555 (1) : 1
+4 4 3 4, 556 (1) : 1
+4 4 3 5, 557 (1) : 1
+4 4 3 6, 558 (1) : 1
+4 4 4 1, 559 (1) : 1
+4 4 4 2, 560 (1) : 1
+4 4 4 3, 561 (1) : 1
+4 4 4 4, 562 (1) : 1
+4 4 4 5, 563 (1) : 1
+4 4 4 6, 564 (1) : 1
+4 4 5 1, 565 (1) : 1
+4 4 5 2, 566 (1) : 1
+4 4 5 3, 567 (1) : 1
+4 4 5 4, 568 (1) : 1
+4 4 5 5, 569 (1) : 1
+4 4 5 6, 570 (1) : 1
+4 5 1 1, 571 (1) : 1
+4 5 1 2, 572 (1) : 1
+4 5 1 3, 573 (1) : 1
+4 5 1 4, 574 (1) : 1
+4 5 1 5, 575 (1) : 1
+4 5 1 6, 576 (1) : 1
+4 5 2 1, 577 (1) : 1
+4 5 2 2, 578 (1) : 1
+4 5 2 3, 579 (1) : 1
+4 5 2 4, 580 (1) : 1
+4 5 2 5, 581 (1) : 1
+4 5 2 6, 582 (1) : 1
+4 5 3 1, 583 (1) : 1
+4 5 3 2, 584 (1) : 1
+4 5 3 3, 585 (1) : 1
+4 5 3 4, 586 (1) : 1
+4 5 3 5, 587 (1) : 1
+4 5 3 6, 588 (1) : 1
+4 5 4 1, 589 (1) : 1
+4 5 4 2, 590 (1) : 1
+4 5 4 3, 591 (1) : 1
+4 5 4 4, 592 (1) : 1
+4 5 4 5, 593 (1) : 1
+4 5 4 6, 594 (1) : 1
+4 5 5 1, 595 (1) : 1
+4 5 5 2, 596 (1) : 1
+4 5 5 3, 597 (1) : 1
+4 5 5 4, 598 (1) : 1
+4 5 5 5, 599 (1) : 1
+4 5 5 6, 600 (1) : 1

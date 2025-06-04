@@ -40,7 +40,41 @@ This advanced robotics project implements a complete autonomous navigation and s
 
 ---
 
-### 2. **Design and Simulation of a Robotic Manipulator for Automated Assembly**
+### 2. **Intelligent Mobile Robot Navigation Using Fuzzy Logic and ANFIS Controllers**
+**Duration:** May 2025 – Jun 2025  
+**Course:** ECTE441/841/941 Intelligent Control  
+**Objective:** Develop intelligent fuzzy logic and ANFIS controllers for autonomous mobile robot navigation through obstacle-laden environments.
+
+This advanced control systems project focuses on developing intelligent controllers for a mobile robot navigating through a 2D arena containing irregular polygon obstacles representing mine fields. The robot must autonomously navigate from a starting position (X=3.4, Y=5.8) to a dynamically estimated target location without prior path planning, using only sensor feedback and intelligent control algorithms.
+
+**Key Features:**
+- **Fuzzy Logic Controller:** Mamdani/TSK inference system for real-time decision making
+- **ANFIS Optimization:** Adaptive Neural Fuzzy Inference System with neural network learning
+- **Multi-Sensor Integration:** Distance sensors, ultrasonic sensors, and obstacle detection
+- **Dynamic Target Estimation:** Real-time target location refinement based on signal strength
+- **Obstacle Avoidance:** Intelligent navigation around irregular polygon mine fields
+- **MIMO Control System:** Independent left and right wheel velocity control
+
+**Technical Implementation:**
+- **Sensor Fusion:** Distance estimation, obstacle detection (-9 to 5 range), ultrasonic proximity
+- **Fuzzy Inference:** Rule-based decision making for wheel velocity control
+- **ANFIS Training:** Neural network optimization of membership functions using captured training data
+- **Performance Metrics:** Trajectory plotting, odometer tracking, rule surface analysis
+- **Simulink Integration:** Complete simulation environment with robot kinematics model
+
+**Control Specifications:**
+- **Input Range:** Left/Right wheel velocities [-2, 2]
+- **Sensor Inputs:** Target distance, bearing angle (Theta), obstacle detection, ultrasonic proximity
+- **Output Signals:** Optimized wheel velocities for navigation and obstacle avoidance
+- **Obstacle Detection:** 0.5m range with directional sensing (left, center, right)
+
+**Skills Demonstrated:** MATLAB Fuzzy Toolbox, Simulink Modeling, ANFIS Optimization, Intelligent Control, Sensor Fusion, Neural Networks, Nonlinear Systems
+
+**View Code:** [Fuzzy Controller/](./Fuzzy%20Controller/)
+
+---
+
+### 3. **Design and Simulation of a Robotic Manipulator for Automated Assembly**
 **Duration:** Aug 2023 – Oct 2023  
 **Objective:** Automate nut-and-bolt operations using a 6-DOF manipulator.
 
@@ -62,7 +96,7 @@ This project focuses on the complete design, simulation, and control of a roboti
 
 ---
 
-### 3. **Design and Optimization of a Tuned Mass Damper (TMD) System for Vehicle Suspension**
+### 4. **Design and Optimization of a Tuned Mass Damper (TMD) System for Vehicle Suspension**
 **Duration:** Sep 2023 – Oct 2023  
 **Objective:** Reduce vibrations in vehicle suspension systems using passive damping.
 
@@ -81,7 +115,7 @@ This project simulates a two-mass spring-damper system to study and suppress unw
 
 ---
 
-### 4. **Vibration Control and Optimization of a Flatbed Trolley Using PID Control**
+### 5. **Vibration Control and Optimization of a Flatbed Trolley Using PID Control**
 **Duration:** Apr 2024 – May 2024  
 **Objective:** Design a digital PID controller for a flatbed trolley to minimize vibration.
 
@@ -117,6 +151,8 @@ This project implements an advanced control system using tuned PID gains to redu
 ### Control Systems & Simulation
 - **MATLAB R2020a+**
 - Simulink
+- **Fuzzy Logic Toolbox** - Fuzzy inference systems and ANFIS
+- **ANFISEDIT** - Adaptive neural fuzzy optimization tool
 - Symbolic Math Toolbox
 - Control System Toolbox
 - Robotics Toolbox (RTB)
@@ -156,7 +192,10 @@ git clone https://github.com/manavsikkas/Projects.git
 cd Projects
 
 # 2. Open MATLAB and navigate to desired project folder
-# 3. Run the main script (e.g., Animation.m, TunedMassDamper.m, machinery.m)
+# 3. Run the main script or Simulink model:
+#    - Fuzzy Controller: Open RoboBlock.slx in Simulink
+#    - Robotic Manipulator: Run Animation.m
+#    - Control Systems: Run TunedMassDamper.m or machinery.m
 ```
 
 ---
@@ -164,11 +203,13 @@ cd Projects
 ## Project Achievements
 
 - 🤖 **Autonomous Navigation:** Successfully implemented SLAM-based exploration in unknown environments
+- 🧠 **Intelligent Control:** Developed fuzzy logic and ANFIS controllers for mobile robot navigation
 - 🎯 **Computer Vision:** Achieved reliable beacon detection using color-based image processing
 - 📡 **ROS Integration:** Developed custom message types and multi-topic communication system
 - 🎮 **Control Systems:** Designed and optimized PID controllers for vibration suppression
 - 🦾 **Robotics:** Forward/inverse kinematics implementation for 6-DOF manipulator
 - 📊 **Simulation:** Advanced MATLAB modeling for dynamic systems analysis
+- 🔮 **AI/ML Integration:** Neural network optimization of fuzzy membership functions
 
 ---
 
