@@ -1,0 +1,28 @@
+<launch>
+    <!--  set Parameters  -->
+    <set_parameter name="use_sim_time" value="true"/>
+
+    <!--  SLAM  -->
+    <include file="$(find-pkg-share nav2_bringup)/launch/slam_launch.py"> </include>
+
+    <!--  Navigation  -->
+    <include file="$(find-pkg-share nav2_bringup)/launch/navigation_launch.py"> </include>
+
+    <!--  Exploration  -->
+    <!--node name="tb3_explore" pkg="ecte477_starter_python" exec="maze_explorer3" output="screen"/ -->
+
+    <!-- Start Explore command moved from my_node.py DEMO 2 ADDITION -->
+    <executable cmd="ros2 topic pub -1 /start_explore std_msgs/msg/String '{data: &quot;start&quot;}'" output="screen"/>
+
+    <!--  My Node  -->
+
+    <!-- Adding beacons_24.yaml and my_node2.py-->
+    <node name="my_node3" pkg="demo2" exec="my_node3" output="screen">
+    <node name="my_node3" pkg="demo2" exec="my_node3" output="screen">
+        <param from="/home/student/ros2_ws/src/demo2/param/beacons_24.yaml"/>
+    </node>
+
+
+    <!--  RViz (don't change)  -->
+    <node name="rviz2" pkg="rviz2" exec="rviz2" args="-d $(find-pkg-share demo2)/config/my_layout.rviz"/>
+</launch>
