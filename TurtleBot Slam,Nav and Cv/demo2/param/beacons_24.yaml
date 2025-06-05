@@ -1,6 +1,0 @@
-my_node:
-    ros__parameters:
-        beacons:
-            id: [0, 1, 2, 3]
-            top: ['red', 'blue', 'green', 'blue']
-            bottom: ['yellow', 'red', 'yellow', 'green']
