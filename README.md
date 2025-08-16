@@ -211,15 +211,6 @@ cd Projects
 - 📊 **Simulation:** Advanced MATLAB modeling for dynamic systems analysis
 - 🔮 **AI/ML Integration:** Neural network optimization of fuzzy membership functions
 
----
-
-## Academic Performance
-
-- **ECTE477 Programming Autonomous Systems:** Demonstration 2 - **90% (9.0/10.0)**
-  - Requirement 1 (SLAM & Navigation): 2.5/3.0
-  - Requirement 2 (Computer Vision): 6.0/6.0
-  - Requirement 3 (Marker Visualization): 2.5/3.0
-  - Requirement 4 (Custom Messages): 2.5/3.0
 
 ---
 
@@ -228,7 +219,7 @@ cd Projects
 **Manav Sikka**  
 Mechatronics Engineering Student  
 University of Wollongong  
-📧 [Contact](mailto:ms309@uowmail.edu.au)  
+📧 [Contact](mailto:manavsikka5@gmail.com)  
 🔗 [GitHub](https://github.com/manavsikkas)  
 🌐 [LinkedIn](https://linkedin.com/in/manav-sikka)
 
