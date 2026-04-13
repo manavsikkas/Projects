@@ -217,8 +217,8 @@ cd Projects
 ## Author
 
 **Manav Sikka**  
-Mechatronics Engineering Student  
-University of Wollongong  
+Mechatronics Engineer  
+University of Wollongong (MEng Mechatronics)  
 📧 [Contact](mailto:manavsikka5@gmail.com)  
 🔗 [GitHub](https://github.com/manavsikkas)  
 🌐 [LinkedIn](https://linkedin.com/in/manav-sikka)
